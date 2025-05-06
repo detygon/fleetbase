@@ -1,0 +1,10 @@
+version: “3.8”
+services:  
+  application:  
+    environment:  
+      MAIL_MAILER: smtp
+      IPINFO_API_KEY:
+      TWILIO_SID:  
+      TWILIO_TOKEN:
+      TWILIO_FROM:
+      DATABASE_URL: mysql://mysql:7XMCy48prQnD85ZveNfxhOIMCLaJBkcBjCtNGuU3X2fmwnzBr7HM7XJvXBw08eAU@xo8cwgoog80s8ogsc0c4sgc4:3306/default
